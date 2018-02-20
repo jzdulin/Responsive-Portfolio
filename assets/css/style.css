@@ -239,7 +239,79 @@ input[type=submit] {
 }
 
 
-@media screen and (max-width: 980px) {
+
+@media screen and (max-width: 640px) {
+  
+  .container {
+    max-width: 640px;
+    width:100%;
+  }
+
+  #masthead {
+    max-width: 640px;
+    position: static;
+  }
+
+  #logo {
+    width:100%;
+  }
+
+  #bar {
+    width:100%;
+  }
+
+  .main-section {
+    max-width: 640px;
+    margin-top:-120px;
+  }
+
+  .sidebar {
+    max-width: 640px;
+    margin-top:10px;;
+  }
+
+  .auth-image {
+    width:545px;
+    height:345px;
+  }
+
+  .work{
+    width:545px;
+    height:445px;
+  }
+} 
+
+
+@media screen and (max-width:768px) and (min-width:640px) {
+
+  .container {
+    width: 100%;
+    max-width: 768px;
+    padding: 10px;
+  }
+
+  .main-section {
+    max-width: 768px;
+    margin-top:40px;
+  }
+
+  .sidebar {
+    max-width: 768px;
+    margin-top:40px;
+  }
+
+  .auth-image {
+    width:50%;
+  }
+
+  .work {
+    margin:10px auto;
+    width: 46%;
+  }
+
+}
+
+@media screen and (max-width: 980px) and (min-width:768px) {
   
   .container {
     width: 100%;
